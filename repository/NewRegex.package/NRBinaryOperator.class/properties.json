@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "NROperator",
+	"category" : "NewRegex-Operators",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "NRBinaryOperator",
+	"type" : "normal"
+}

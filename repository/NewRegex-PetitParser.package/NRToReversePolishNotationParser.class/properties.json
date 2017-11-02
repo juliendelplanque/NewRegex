@@ -1,0 +1,27 @@
+{
+	"commentStamp" : "JulienDelplanque 11/2/2017 21:19",
+	"super" : "PPCompositeParser",
+	"category" : "NewRegex-PetitParser",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"atom",
+		"groupAtom",
+		"characterGroup",
+		"anyAtom",
+		"beginOfLineAtom",
+		"endOfLineAtom",
+		"escapeAtom",
+		"characterAtom",
+		"regex",
+		"characterSet",
+		"characterSetClass",
+		"characterSetEscape",
+		"characterSetRange",
+		"characterSetCharacter",
+		"number"
+	],
+	"name" : "NRToReversePolishNotationParser",
+	"type" : "normal"
+}

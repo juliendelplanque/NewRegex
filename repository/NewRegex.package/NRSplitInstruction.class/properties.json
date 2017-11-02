@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "NRInstruction",
+	"category" : "NewRegex-Instructions",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"instructionIndex1",
+		"instructionIndex2"
+	],
+	"name" : "NRSplitInstruction",
+	"type" : "normal"
+}

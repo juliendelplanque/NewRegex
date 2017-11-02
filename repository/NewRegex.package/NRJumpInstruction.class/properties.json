@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "NRInstruction",
+	"category" : "NewRegex-Instructions",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"instructionIndex"
+	],
+	"name" : "NRJumpInstruction",
+	"type" : "normal"
+}

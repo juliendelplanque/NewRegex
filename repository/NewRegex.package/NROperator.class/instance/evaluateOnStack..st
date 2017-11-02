@@ -1,0 +1,3 @@
+evaluating
+evaluateOnStack: aStack
+	self subclassResponsibility

@@ -1,0 +1,3 @@
+atoms
+endOfLineAtom
+	^ $$ asParser
