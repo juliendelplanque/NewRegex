@@ -1,0 +1,3 @@
+printing
+printTextualInstructionOn: aStream
+	self subclassResponsibility

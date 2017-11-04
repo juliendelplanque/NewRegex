@@ -1,0 +1,1 @@
+I am the '.' (concatenation) binary operator in a regular expression.

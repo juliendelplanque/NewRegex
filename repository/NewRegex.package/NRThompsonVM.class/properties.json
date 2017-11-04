@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "NRVirtualMachine",
+	"category" : "NewRegex-VirtualMachines",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"currentList",
+		"nextList",
+		"currentThread",
+		"inputStream",
+		"compiledRegularExpression"
+	],
+	"name" : "NRThompsonVM",
+	"type" : "normal"
+}

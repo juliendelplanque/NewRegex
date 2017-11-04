@@ -1,0 +1,3 @@
+accessing
+stringCounter
+	^ inputStream position

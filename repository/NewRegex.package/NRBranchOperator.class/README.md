@@ -1,0 +1,1 @@
+I am the '|' binary operator in a regular expression.

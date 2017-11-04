@@ -5,7 +5,10 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"stack",
+		"parenthesesIndex"
+	],
 	"name" : "NRCompiler",
 	"type" : "normal"
 }
