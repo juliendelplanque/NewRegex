@@ -1,0 +1,3 @@
+accessing
+subexpressionsCount
+	^ self compiledRegularExpression subexpressionsCount

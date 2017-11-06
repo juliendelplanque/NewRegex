@@ -1,3 +1,3 @@
 accessing
 stringCounter
-	^ inputStream position
+	^ inputStream position - beginStreamPosition

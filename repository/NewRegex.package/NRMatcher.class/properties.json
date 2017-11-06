@@ -9,7 +9,9 @@
 		"regularExpression",
 		"compiledRegularExpression",
 		"compilerClass",
-		"virtualMachineClass"
+		"virtualMachineClass",
+		"subexpressions",
+		"matcherForSearch"
 	],
 	"name" : "NRMatcher",
 	"type" : "normal"

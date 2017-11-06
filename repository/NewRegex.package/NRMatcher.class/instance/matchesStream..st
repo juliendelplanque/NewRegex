@@ -1,13 +1,13 @@
 matching
 matchesStream: aStream
 	"Match thyself against a positionable stream."
-
+	| vm |
+	vm := self virtualMachineClass new.
 	[
-		self virtualMachineClass new
-			interpret: self compiledRegularExpression on: aStream
+		vm interpret: self compiledRegularExpression on: aStream
 	] on: NRMatchNotification do: [ :notification |
 		aStream atEnd
-			ifTrue: [ ^ true ].
+			ifTrue: [ subexpressions := vm collectSubmatches. ^ true ].
 		notification resume ].
-
+	
 	^ false

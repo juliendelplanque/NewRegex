@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"instructions"
+		"instructions",
+		"firstCharacter"
 	],
 	"name" : "NRCompiledRegularExpression",
 	"type" : "normal"

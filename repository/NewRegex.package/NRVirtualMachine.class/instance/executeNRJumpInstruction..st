@@ -1,0 +1,3 @@
+executing
+executeNRJumpInstruction: aNRJumpInstruction
+	self subclassResponsibility

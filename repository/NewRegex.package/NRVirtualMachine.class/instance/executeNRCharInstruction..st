@@ -1,0 +1,3 @@
+executing
+executeNRCharInstruction: aNRCharInstruction
+	self subclassResponsibility

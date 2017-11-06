@@ -1,3 +1,3 @@
 accessing
 nextParenthesesIndex
-	^ parenthesesIndex := parenthesesIndex + 2
+	^ parenthesesIndex := parenthesesIndex + 1

@@ -3,7 +3,10 @@ regex
 	| exp |
 	exp := PPExpressionParser new.
 
-	exp term: atom.
+	exp term: (atom plus ==> [ :tokens |
+		Array streamContents: [ :stream |
+			stream << tokens flattened.
+			tokens size - 1 timesRepeat: [ stream << NRConcatenateOperator new ] ] ]).
 
 	exp
 		group: [ :g | 

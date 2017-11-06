@@ -1,0 +1,3 @@
+execution
+beExecutedBy: aNRVirtualMachine
+	aNRVirtualMachine executeNRVMTestInstruction: self

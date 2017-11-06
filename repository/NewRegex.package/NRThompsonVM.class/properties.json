@@ -10,7 +10,9 @@
 		"nextList",
 		"currentThread",
 		"inputStream",
-		"compiledRegularExpression"
+		"compiledRegularExpression",
+		"beginStreamPosition",
+		"subexpressionsIndexes"
 	],
 	"name" : "NRThompsonVM",
 	"type" : "normal"
